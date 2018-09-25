@@ -1,0 +1,10 @@
+spring:
+      profile : test
+      datasource:
+        url: jdbc:mysql://localhost:3306/downloader
+        username: root
+        password: root
+        platform: mysql
+      jpa:
+        database-platform: org.hibernate.dialect.MySQLDialect
+
